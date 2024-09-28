@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f4f3f3;
+}
+
+@layer utilities {
+  /* TYPOGRAPHY */
+  .h1 {
+    @apply font-brico text-3xl font-extrabold leading-[1] tracking-tighter md:text-7xl lg:text-8xl;
+  }
+
+  .h2 {
+    @apply font-aeonik text-5xl font-bold tracking-tighter;
+  }
+
+  .h3 {
+    @apply font-aeonik text-3xl font-bold tracking-tighter;
+  }
+
+  .h4 {
+    @apply font-aeonik text-2xl font-bold tracking-tighter;
+  }
+
+  .h5 {
+    @apply font-aeonik text-xl font-bold tracking-tighter;
+  }
+
+  .p1 {
+    @apply font-aeonik text-lg font-normal tracking-normal;
+  }
+
+  .p2 {
+    @apply font-aeonik text-base font-normal tracking-normal;
+  }
+
+  .p3 {
+    @apply font-aeonik text-sm font-normal tracking-normal;
+  }
+
+  .p-desk {
+    @apply font-aeonik text-2xl font-normal leading-7 tracking-normal;
+  }
+
+  /* SPACING */
+  /* spacing between components title and components content */
+  .col-comp {
+    @apply flex flex-col items-center justify-center gap-10 md:gap-20;
+  }
+  /* spacing between section  */
+  .col-sec {
+    @apply mb-[100px] md:mb-[200px];
+  }
+  /* spacing between paragraph */
+  .col-p {
+    @apply flex flex-col items-start gap-4;
+  }
+
+  /* GRID */
+  .grid-desk {
+    @apply px-20;
+  }
+
+  .grid-mbl {
+    @apply px-4;
+  }
+}
