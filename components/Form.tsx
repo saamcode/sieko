@@ -81,12 +81,12 @@ const Form = () => {
                     <input
                       type="text"
                       placeholder="Nama Depan"
-                      className="p2 rounded-md border border-gray-2 bg-white-2 p-4 placeholder-gray-2"
+                      className="p2 w-full rounded-md border border-gray-2 bg-white-2 p-4 placeholder-gray-2"
                     />
                     <input
                       type="text"
                       placeholder="Nama Belakang"
-                      className="p2 rounded-md border border-gray-2 bg-white-2 p-4 placeholder-gray-2"
+                      className="p2 w-full rounded-md border border-gray-2 bg-white-2 p-4 placeholder-gray-2"
                     />
                   </div>
 

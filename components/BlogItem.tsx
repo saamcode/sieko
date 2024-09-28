@@ -86,7 +86,7 @@ const BlogItem = () => {
             </button>
           </div>
 
-          <div className="blog-items flex flex-col gap-10 md:flex-row md:items-stretch md:justify-between">
+          <div className="blog-items flex flex-col gap-10 md:flex-row md:items-stretch">
             <div className="item1 blog umkm flex-1">
               <Image src={blog1} alt="blog1" className="rounded-lg" />
 
