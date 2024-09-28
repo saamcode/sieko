@@ -23,9 +23,9 @@ const Blog = () => {
         <div className="col-comp col-sec tujuan-kami mt-[750px] md:mt-[850px] 2xl:mt-[1050px]">
           <h1 className="h1 text-gray-1">Jelajahi Blog Terkait</h1>
 
-          <div className="items-start justify-between gap-5 md:flex">
+          <div className="items-start gap-5 md:flex">
             <div className="image flex-1">
-              <Image src={blogImg} alt="img" />
+              <Image src={blogImg} alt="img" className="w-full" />
             </div>
 
             <div className="text flex-1">
