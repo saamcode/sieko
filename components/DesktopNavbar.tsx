@@ -19,15 +19,17 @@ import { Button } from "@/components/ui/button";
 const DesktopNavbar = () => {
   const [navbar, setNavbar] = useState(false);
 
-  const changeBg = () => {
-    if (window.scrollY >= 80) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
+  if (typeof window !== "undefined") {
+    const changeBg = () => {
+      if (window.scrollY >= 80) {
+        setNavbar(true);
+      } else {
+        setNavbar(false);
+      }
+    };
 
-  window.addEventListener("scroll", changeBg);
+    window.addEventListener("scroll", changeBg);
+  }
 
   // active link
   const pathname = usePathname();
