@@ -15,7 +15,7 @@ import BlogItem from "@/components/BlogItem";
 const Program = () => {
   return (
     <>
-      <main className="grid-mbl md:grid-desk">
+      <main className="">
         <section
           style={{
             backgroundImage: `url(${programBg.src})`,
@@ -28,7 +28,7 @@ const Program = () => {
           </h1>
         </section>
 
-        <section className="tujuan-kami col-sec mt-[750px] md:mt-[850px] 2xl:mt-[1050px]">
+        <section className="tujuan-kami col-sec grid-mbl md:grid-desk mt-[750px] md:mt-[850px] 2xl:mt-[1050px]">
           <div className="col-comp">
             <h3 className="h1 2xl:h1 text-center text-gray-1 md:text-7xl">
               Didorong oleh <span className="text-green-1">dampak.</span>
@@ -63,17 +63,19 @@ const Program = () => {
           </div>
         </section>
 
-        <section className="col-sec">
-          <div className="col-comp">
-            <h1 className="h1 text-gray-1">Program Sieko</h1>
+        <section className="grid-mbl md:grid-desk">
+          <div className="col-sec">
+            <h1 className="h1 mb-10 text-center text-gray-1 md:mb-20">
+              Program Sieko
+            </h1>
 
-            <div className="flex flex-col gap-6 md:flex-row md:justify-between">
+            <div className="flex flex-col items-stretch gap-6 md:flex-row md:justify-between">
               <div className="flex">
-                <div className="item-1 flex flex-1 flex-col items-start justify-center rounded-l-lg bg-green-1 px-6 py-20">
+                <div className="item-3 flex flex-col items-start justify-center rounded-l-lg bg-green-1 px-5 py-10">
                   <h4 className="h4 text-white-1">Pelatihan</h4>
 
                   <p className="p2 mb-4 text-white-2">
-                    Program pembelajaran bisnis bagi UMKM
+                    Program pelatihan <br /> bisnis bagi UMKM
                   </p>
 
                   <Button
@@ -92,11 +94,11 @@ const Program = () => {
               </div>
 
               <div className="flex">
-                <div className="item-1 flex flex-1 flex-col items-start justify-center rounded-l-lg bg-green-1 px-6 py-20">
+                <div className="item-2 flex flex-col items-start justify-center rounded-l-lg bg-green-1 px-5 py-10">
                   <h4 className="h4 text-white-1">Pendanaan</h4>
 
                   <p className="p2 mb-4 text-white-2">
-                    Program pengajuan permodalan untuk UMKM
+                    Program pengajuan <br /> permodalan untuk UMKM
                   </p>
 
                   <Button
@@ -115,11 +117,12 @@ const Program = () => {
               </div>
 
               <div className="flex">
-                <div className="item-1 flex flex-1 flex-col items-start justify-center rounded-l-lg bg-green-1 px-6 py-20">
+                <div className="item-3 flex flex-col items-start justify-center rounded-l-lg bg-green-1 px-5 py-10">
                   <h4 className="h4 text-white-1">Kemitraan</h4>
 
                   <p className="p2 mb-4 text-white-2">
-                    Program kemitraan bagi para petani dan peternak
+                    Program kemitraan <br /> bagi para petani <br /> dan
+                    peternak
                   </p>
 
                   <Button

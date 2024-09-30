@@ -71,29 +71,29 @@ const BlogItem = () => {
         <div className="flex flex-col justify-start gap-4">
           <div className="mb-10 flex flex-row gap-4">
             <button onClick={showAll}>
-              <p className="font-aeonik text-sm font-bold text-gray-1 hover:text-gray-2 md:text-lg">
+              <p className="font-aeonik text-base font-bold text-gray-1 hover:text-gray-2 md:text-lg">
                 Semua
               </p>
             </button>
             <button onClick={showPertanian}>
-              <p className="font-aeonik text-sm font-bold text-gray-1 hover:text-gray-2 md:text-lg">
+              <p className="font-aeonik text-base font-bold text-gray-1 hover:text-gray-2 md:text-lg">
                 Pertanian
               </p>
             </button>
             <button onClick={showPeternakan}>
-              <p className="font-aeonik text-sm font-bold text-gray-1 hover:text-gray-2 md:text-lg">
+              <p className="font-aeonik text-base font-bold text-gray-1 hover:text-gray-2 md:text-lg">
                 Peternakan
               </p>
             </button>
             <button onClick={showUMKM}>
-              <p className="font-aeonik text-sm font-bold text-gray-1 hover:text-gray-2 md:text-lg">
+              <p className="font-aeonik text-base font-bold text-gray-1 hover:text-gray-2 md:text-lg">
                 UMKM
               </p>
             </button>
           </div>
 
-          <div className="blog-items flex flex-col gap-10 bg-red-400 md:flex-row">
-            <div className="item1 blog umkm flex-1">
+          <div className="blog-items flex flex-col gap-10 md:flex-row md:justify-between">
+            <div className="item1 blog umkm max-w-[400px] flex-1">
               <Image src={blog1} alt="blog1" className="rounded-lg" />
 
               <p className="mb-2 mt-4 font-aeonik text-sm font-bold text-gray-2">
@@ -109,7 +109,7 @@ const BlogItem = () => {
               </p>
             </div>
 
-            <div className="item2 blog pertanian flex-1">
+            <div className="item2 blog pertanian max-w-[400px] flex-1">
               <Image src={blog2} alt="blog2" className="rounded-lg" />
 
               <p className="mb-2 mt-4 font-aeonik text-sm font-bold text-gray-2">
@@ -127,7 +127,7 @@ const BlogItem = () => {
               </p>
             </div>
 
-            <div className="item3 blog peternakan flex-1">
+            <div className="item3 blog peternakan max-w-[400px] flex-1">
               <Image src={blog3} alt="blog3" className="rounded-lg" />
 
               <p className="mb-2 mt-4 font-aeonik text-sm font-bold text-gray-2">

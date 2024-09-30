@@ -8,7 +8,7 @@ import Download from "@/components/Download";
 const Blog = () => {
   return (
     <>
-      <main className="grid-mbl md:grid-desk">
+      <main className="">
         <section
           style={{
             backgroundImage: `url(${blogBg.src})`,
@@ -20,7 +20,7 @@ const Blog = () => {
           </h1>
         </section>
 
-        <div className="col-comp col-sec tujuan-kami mt-[750px] md:mt-[850px] 2xl:mt-[1050px]">
+        <div className="col-comp col-sec tujuan-kami grid-mbl md:grid-desk mt-[750px] md:mt-[850px] 2xl:mt-[1050px]">
           <h1 className="h1 text-gray-1">Jelajahi Blog Terkait</h1>
 
           <div className="items-start gap-5 md:flex">
@@ -48,8 +48,8 @@ const Blog = () => {
 
         <BlogItem />
 
-        <div className="blog-items col-sec flex flex-col gap-10 px-4 md:flex-row md:items-stretch md:justify-between md:px-20">
-          <div className="item1 blog peternakan flex-1">
+        <div className="blog-items col-sec flex flex-col gap-10 px-4 md:flex-row md:justify-between md:px-20">
+          <div className="item1 blog peternakan max-w-[400px] flex-1">
             <Image src={blog4} alt="blog1" className="rounded-lg" />
 
             <p className="mb-2 mt-4 font-aeonik text-sm font-bold text-gray-2">
@@ -66,7 +66,7 @@ const Blog = () => {
             </p>
           </div>
 
-          <div className="item2 blog umkm flex-1">
+          <div className="item2 blog umkm max-w-[400px] flex-1">
             <Image src={blog5} alt="blog2" className="rounded-lg" />
 
             <p className="mb-2 mt-4 font-aeonik text-sm font-bold text-gray-2">
@@ -83,7 +83,7 @@ const Blog = () => {
             </p>
           </div>
 
-          <div className="item3 blog pertanian flex-1">
+          <div className="item3 blog pertanian max-w-[400px] flex-1">
             <Image src={blog6} alt="blog3" className="rounded-lg" />
 
             <p className="mb-2 mt-4 font-aeonik text-sm font-bold text-gray-2">

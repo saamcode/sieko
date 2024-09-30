@@ -10,7 +10,7 @@ import BlogItem from "@/components/BlogItem";
 const Perusahan = () => {
   return (
     <>
-      <main className="grid-mbl md:grid-desk">
+      <main>
         <section
           style={{
             backgroundImage: `url(${perusahaanBg.src})`,

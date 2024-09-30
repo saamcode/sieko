@@ -5,7 +5,7 @@ import { tujuanKamiImg } from "@/public/images";
 const TujuanKami = () => {
   return (
     <>
-      <section className="tujuan-kami mt-[750px] md:mt-[850px] 2xl:mt-[1050px]">
+      <section className="tujuan-kami grid-mbl md:grid-desk mt-[750px] md:mt-[850px] 2xl:mt-[1050px]">
         <div className="col-comp col-sec">
           <h3 className="h1 text-center text-gray-1">Tujuan Kami</h3>
 

@@ -14,9 +14,7 @@ const Home = () => {
     <>
       <main>
         <Hero />
-        <div className="grid-mbl md:grid-desk">
-          <TujuanKami />
-        </div>
+        <TujuanKami />
         <Globe />
         <TimeLine />
         <KelolaBisnismu />
