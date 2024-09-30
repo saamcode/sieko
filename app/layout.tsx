@@ -7,6 +7,9 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Sieko",
   description: "Bantu UMKM kembangin bisnisnya sampe sukses",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
