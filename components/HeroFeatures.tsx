@@ -10,7 +10,7 @@ import { Handshake, ShieldCheck, Smartphone, NotebookPen } from "lucide-react";
 const HeroFeatures = () => {
   return (
     <>
-      <section className="grid-mbl lg:grid-desk">
+      <section className="grid-mbl lg:grid-desk md:mb-10">
         <Accordion
           type="single"
           collapsible

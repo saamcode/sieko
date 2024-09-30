@@ -39,9 +39,9 @@ const Program = () => {
             </h3>
 
             <div className="flex w-full flex-col items-center md:flex-row md:justify-between md:gap-10">
-              <Image src={programImg} alt="img" />
+              <Image src={programImg} alt="img" className="flex-1" />
 
-              <div className="p2 col-p md:p-desk mt-10 text-gray-2 md:mt-0">
+              <div className="p2 col-p md:p-desk mt-10 flex-1 text-gray-2 md:mt-0">
                 <p>
                   Sieko bukan hanya perusahaan, kami adalah gerakan, bergabung
                   dengan kami bukan sekedar mencari gaji atau jabatan, inilah

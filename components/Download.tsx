@@ -12,14 +12,14 @@ const Download = () => {
             Download Sekarang
           </h3>
 
-          <div className="flex flex-col md:flex-row md:justify-center md:gap-28">
+          <div className="flex flex-col items-center md:flex-row md:justify-center md:gap-28">
             <Image
               src={downloadImg}
               alt="img"
-              className="mx-auto mb-5 w-44 md:mb-0 md:w-[346px]"
+              className="mx-auto mb-5 w-44 flex-1 md:mb-0 md:w-[346px]"
             />
 
-            <div>
+            <div className="flex-1">
               <h3 className="h2 mb-4 hidden text-center text-gray-1 md:flex">
                 Download Sekarang
               </h3>

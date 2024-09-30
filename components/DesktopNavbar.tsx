@@ -54,7 +54,7 @@ const DesktopNavbar = () => {
                 className={
                   isActive
                     ? "rounded-lg border-b-4 border-green-1"
-                    : "text-white-1"
+                    : "text-white-1 hover:text-white-2"
                 }
               >
                 {link.name}

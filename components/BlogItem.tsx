@@ -63,30 +63,36 @@ const showPeternakan = function () {
 const BlogItem = () => {
   return (
     <>
-      <section className="grid-mbl md:grid-desk col-sec col-comp">
-        <h1 className="h1 text-center text-gray-1">Jelajahi Blog Terkait</h1>
+      <section className="grid-mbl md:grid-desk col-sec">
+        <h1 className="h1 mb-10 text-center text-gray-1 md:mb-20">
+          Jelajahi Blog Terkait
+        </h1>
 
-        <div>
+        <div className="flex flex-col justify-start gap-4">
           <div className="mb-10 flex flex-row gap-4">
             <button onClick={showAll}>
-              <p className="font-aeonik text-sm font-bold text-gray-1">Semua</p>
+              <p className="font-aeonik text-sm font-bold text-gray-1 hover:text-gray-2 md:text-lg">
+                Semua
+              </p>
             </button>
             <button onClick={showPertanian}>
-              <p className="font-aeonik text-sm font-bold text-gray-1">
+              <p className="font-aeonik text-sm font-bold text-gray-1 hover:text-gray-2 md:text-lg">
                 Pertanian
               </p>
             </button>
             <button onClick={showPeternakan}>
-              <p className="font-aeonik text-sm font-bold text-gray-1">
+              <p className="font-aeonik text-sm font-bold text-gray-1 hover:text-gray-2 md:text-lg">
                 Peternakan
               </p>
             </button>
             <button onClick={showUMKM}>
-              <p className="font-aeonik text-sm font-bold text-gray-1">UMKM</p>
+              <p className="font-aeonik text-sm font-bold text-gray-1 hover:text-gray-2 md:text-lg">
+                UMKM
+              </p>
             </button>
           </div>
 
-          <div className="blog-items flex flex-col gap-10 md:flex-row md:items-stretch">
+          <div className="blog-items flex flex-col gap-10 bg-red-400 md:flex-row">
             <div className="item1 blog umkm flex-1">
               <Image src={blog1} alt="blog1" className="rounded-lg" />
 

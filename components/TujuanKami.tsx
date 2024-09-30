@@ -6,13 +6,13 @@ const TujuanKami = () => {
   return (
     <>
       <section className="tujuan-kami mt-[750px] md:mt-[850px] 2xl:mt-[1050px]">
-        <div className="col-comp">
+        <div className="col-comp col-sec">
           <h3 className="h1 text-center text-gray-1">Tujuan Kami</h3>
 
           <div className="flex flex-col items-center md:flex-row md:gap-10">
-            <Image src={tujuanKamiImg} alt="img" />
+            <Image src={tujuanKamiImg} alt="img" className="flex-1" />
 
-            <div className="p2 col-p md:p-desk mt-10 text-gray-2 md:mt-0">
+            <div className="p2 col-p md:p-desk mt-10 flex-1 text-gray-2 md:mt-0">
               <p>
                 Berdasarkan data dari Kementerian Koperasi dan Usaha Kecil dan
                 Menegah (Kemenkop UMKM) pada bulan Maret 2021, kontribusi UMKM

@@ -28,9 +28,9 @@ const Solusi = () => {
             </h3>
 
             <div className="flex flex-col items-center md:flex-row md:gap-10">
-              <Image src={solusiImg} alt="img" />
+              <Image src={solusiImg} alt="img" className="flex-1" />
 
-              <div className="p2 col-p md:p-desk mt-10 text-gray-2 md:mt-0">
+              <div className="p2 col-p md:p-desk mt-10 flex-1 text-gray-2 md:mt-0">
                 <p>
                   Indonesia merupakan negara agraris terbesar ke 2 di dunia. Ada
                   3 fase perekonomian yang harus dilewati agar suatu negara bisa
